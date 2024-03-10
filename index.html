@@ -166,7 +166,7 @@
                                 <h4>
                                     <strong>Визуализация в Power BI</strong>
                                 </h4>
-                                <p>Для более сложных визуадизаций я использую Power BI. Могу делать интерактивные визуализации в dashboard или в отчетах (reports). Также могу использовать формулы с DAX или M.</p>
+                                <p>Для более сложных визуализаций я использую Power BI. Могу делать интерактивные визуализации в dashboard или в отчетах (reports). Также могу использовать формулы с DAX или M.</p>
                                 
                             </div>
                         </div>
@@ -301,13 +301,16 @@
                         </li>
                     </ul>
                     <hr class="small">
-                    <p class="text-muted">Copyright &copy; Kaysar777 2023</p>
+                    <p class="text-muted">Copyright &copy; Kaysar777 <span id="year">2023</span></p>
                 </div>
             </div>
         </div>
     </footer>
 
-
+    <!-- Footer Year -->
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
